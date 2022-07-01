@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(169, 154, 255);
+}
+#para1{
+    text-align: center;
+    font-family:cursive;
+    color: rgb(144, 20, 20);
+    text-decoration: dashed;
+}
+.button{
+    color: red;
+    text-align: center;
+    border-color: black;
+    border-style: outset;
+    margin-bottom: auto;
+    background-color: rgb(118, 197, 188);
+}
