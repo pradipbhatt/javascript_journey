@@ -13,3 +13,10 @@ console.log( 5=== 5 );
 // strict not equal operator
 console.log( 5 !== '6' );
 console.log( 5 !== 5 );
+
+
+// javascript logical expressions
+ 
+let x=5, y=6; //variables defined
+(x < 3) && (y > 5);
+
