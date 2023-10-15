@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <form id="calculatorForm">
+        <label for="num1">Enter First Number:</label>
+        <input type="text" id="num1"><br>
+        
+        <label for="num2">Enter Second Number:</label>
+        <input type="text" id="num2"><br>
+        
+        <input type="button" value="Calculate" onclick="calculate()">
+    </form>
+    
+    <p id="add1"></p>
+    <p id="add2"></p>
+    <p id="add3"></p>
+    <p id="add4"></p>
+
+    <script>
+        function calculate() {
+            let a = parseInt(document.getElementById("num1").value);
+            let b = parseInt(document.getElementById("num2").value);
+            let sum = a + b;
+            let diffrence = a - b;
+            let product = a * b;
+            let division = a / b;
+
+            document.getElementById("add1").innerHTML = "Sum of two numbers is: " + sum;
+            document.getElementById("add2").innerHTML = "Difference of two numbers is: " + diffrence;
+            document.getElementById("add3").innerHTML = "Product of two numbers is: " + product;
+            document.getElementById("add4").innerHTML = "Division of two numbers is: " + division;
+        }
+    </script>
+</body>
+</html>
