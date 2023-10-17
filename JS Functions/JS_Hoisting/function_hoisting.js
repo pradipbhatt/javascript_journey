@@ -22,3 +22,4 @@ let greet = function() {
 
 // In the case of variables, it is better to use let than var.
 
+// In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting.
