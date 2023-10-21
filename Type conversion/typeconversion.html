@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Conversion 🕵️‍♀️</title>
+</head>
+<body>
+    <script>
+        //we learn about datatype conversion in JS
+        let name;
+
+        //implicit type
+        name="20"+ 5; 
+        console.log(name);
+
+        name="20"+ true; 
+        console.log(name);
+
+        name="20"+ undefined; 
+        console.log(name);
+
+        name="50"-"3"; 
+        console.log(name); 
+
+        name="hello"-"world"; 
+        console.log(name); //not a number
+
+        //explicit conversion
+        name=Number("35");
+        console.log(name);//converts string 35 into number 35
+
+        name=Number(true);
+        console.log(name);//returns 1 for true and similarly returns 0 for false
+
+        name=Number(null);
+        console.log(name);
+
+        //explicit conversion to string
+        name=String(234);
+        console.log(name);
+
+        name=String(false);
+        console.log(name);
+
+        name= Boolean("");
+        console.log(name); //explicit conversion to boolean
+
+        name= Boolean(1);
+        console.log(name);
+
+    </script>
+</body>
+</html>
