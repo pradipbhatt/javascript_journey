@@ -15,10 +15,10 @@ Click the "Fork" button at the top right of this repository to create a copy on 
 Next, clone your forked repository to your local development environment using the following command (replace `<your-username>` with your GitHub username):
 
 git clone https://github.com/<your-username>/javascript-journey.git
-3. Make Changes
+### 3. Make Changes
 Now, you can start making changes to the repository. You can create new topic folders or add files to existing folders. Please follow the structure and naming conventions of the repository for consistency.
 
-4. Commit and Push
+### 4. Commit and Push
 Once you've made your changes, commit them and push them to your forked repository:
 
 
@@ -26,7 +26,7 @@ git add .
 git commit -m "Added/Updated <brief-description>"
 git push origin main
 
-5. Create a Pull Request
+### 5. Create a Pull Request
 Go to your forked repository on GitHub, and you should see a notification suggesting a new branch with your recent changes. Click on "Compare & pull request" to initiate a pull request.
 
 In the pull request, provide a detailed description of the changes you made and any relevant information. Our team will review your changes, and if everything looks good, we'll merge your contribution into the base repository.
