@@ -1,4 +1,4 @@
-//basic code for the implementation of if else logic
+
 let a=55;
 if(a>=90 && a<=100)
 {
