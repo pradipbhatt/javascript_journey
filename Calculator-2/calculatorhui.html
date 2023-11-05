@@ -16,6 +16,7 @@
 </head>
 <body>
     <h2>Calculator</h2>
+    <!-- UI OF Calculator here :( -->
     <div id="calculator">
         <input type="text" id="result" value="" disabled>
         <br>
@@ -39,12 +40,12 @@
         <button onclick="calculateResult()">=</button>
         <button onclick="appendToResult('/')">/</button>
     </div>
-
+<!-- Functionality of Calculator -->
     <script>
         function appendToResult(value) {
             document.getElementById("result").value += value;
         }
-
+           <!-- here i created clearresult function to clear the result -->
         function clearResult() {
             document.getElementById("result").value = "";
         }
