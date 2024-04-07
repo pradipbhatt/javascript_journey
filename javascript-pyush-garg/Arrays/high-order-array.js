@@ -24,6 +24,6 @@ function Print(n){
 }
 
 
-Marks.forEach(Print); // prints
+Marks.forEach(Print); 
 
-Marks.forEach(val) => console.log(val);
+Marks.forEach(val); 
