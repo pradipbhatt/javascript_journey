@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Starting From here ...</p>
+    <h2 id="parry"></h2>
+    <p>Ending here ...</p>
+    <script>
+        setTimeout( function(){
+            myFunction("Hello");
+        },10000 );
+
+        function myFunction(value){
+            var element = document.getElementById("parry");
+            element.innerHTML = value + "world";
+        }
+    </script>
+</body>
+</html>
