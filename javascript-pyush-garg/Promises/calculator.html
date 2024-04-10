@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The sum of two numbers is </h1>
+    <h2 id="parry"></h2>
+    <script>
+        function myDisplayer(result){
+       Document.getElementById("parry").innerHTML = result;
+        }
+
+        function myFunction(num1, num2, result){
+           let sum = num1 + num2 ;
+           result(sum);
+        }
+
+        function Multiply(num1 , num2 , multi){
+            let mul = num1 * num2 ;
+            multi(mul);
+        }
+
+        Multiply(10 , 20 , myDisplayer);
+    </script>
+</body>
+</html>
